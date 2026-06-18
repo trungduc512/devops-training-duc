@@ -1,0 +1,14 @@
+[Unit]
+Description=System Monitor
+After=network.target
+
+[Service]
+Type=simple
+User=duc
+WorkingDirectory=/opt/monitor
+ExecStart=/opt/monitor/monitor.sh
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
