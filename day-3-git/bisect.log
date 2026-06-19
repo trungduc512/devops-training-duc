@@ -1,0 +1,24 @@
+running 'python' 'bisect_test.py'
+Output: SYSTEM STATUS: ERROR
+Bisecting: 2 revisions left to test after this (roughly 1 step)
+[ad99f3dbc52b5e0acaa33450a93fd8d84d4612b5] feat: commit index 11
+running 'python' 'bisect_test.py'
+Output: SYSTEM STATUS: OK
+Bisecting: 0 revisions left to test after this (roughly 1 step)
+[ca7bcc662e2e4f8a0f4f35845afa2fe222192fa9] feat: commit index 13
+running 'python' 'bisect_test.py'
+Output: SYSTEM STATUS: ERROR
+Bisecting: 0 revisions left to test after this (roughly 0 steps)
+[9ecd65f42355ffaecb79218547273de088a62c21] feat: commit index 12
+running 'python' 'bisect_test.py'
+Output: SYSTEM STATUS: OK
+ca7bcc662e2e4f8a0f4f35845afa2fe222192fa9 is the first bad commit
+commit ca7bcc662e2e4f8a0f4f35845afa2fe222192fa9
+Author: trungduc512 <161231340+trungduc512@users.noreply.github.com>
+Date:   Fri Jun 19 10:57:57 2026 +0700
+
+    feat: commit index 13
+
+ app.py | 13 +------------
+ 1 file changed, 1 insertion(+), 12 deletions(-)
+bisect found first bad commit
