@@ -18,7 +18,7 @@ Chi tiết các bước chạy lệnh và kết quả của từng phần thực
 
 ## Part A — Networking primer
 
-Xem chi tiết tại: [note](notes.mdnotes.md)
+Xem chi tiết tại: [note](notes.md)
 
 ## Part B — DNS lab
 
