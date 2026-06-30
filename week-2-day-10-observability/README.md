@@ -1,9 +1,9 @@
 # Task: Day 10 — Observability Basics
 
-- **Intern**: Trương Quang Duy
+- **Intern**: Đỗ Trung Đức
 - **Phase/Week/Day**: phase-1/week-2/day-5-observability
 - **Branch**: phase-1/week-2/day-5-observability
-- **Submitted at**: 2026-06-30
+- **Submitted at**: 2026-07-01
 - **Time spent**: 5h
 
 ## Mục tiêu
